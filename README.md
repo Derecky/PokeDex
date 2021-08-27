@@ -15,11 +15,11 @@ Passo a passo para instalação do projeto.
 1. Clonar o repositório
 2. Baixar as dependencias: Rodar os seguintes comandos dentro do diretório clonado
 
-em caso de utilizar yarn:
+em caso de utilizar o gerenciador de pacote yarn:
 ```bash
      yarn
   ```
-em caso de utilizar npm:  
+em caso de utilizar o gerenciador de pacote npm:
 ```bash
      npm install
   ```
@@ -27,8 +27,14 @@ em caso de utilizar npm:
 ## Rodando o projeto
 
 No diretório clonado:
+em caso de utilizar o gerenciador de pacote yarn:
 ```bash
      yarn dev
+  ```
+
+em caso de utilizar o gerenciador de pacote npm:
+```bash
+     npm run dev
   ```
   
 O projeto estará em execução em *localhost:3000*
